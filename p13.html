@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <link rel="stylesheet" href="p13.css">
+        <title>PASSWORD GENERATOR</title>
+    </head>
+    <body>
+        <h1>Password Generator</h1>
+        <div class="generator">
+            <div class="password">
+                <input type="text" value="test">
+                <button>copy</button>
+            </div> 
+          <div class="range">
+            <input type="range" min="4" max="24" value="test">
+            <span>8</span>
+          </div>
+          <div class="options">
+            <div class="option">
+                <label>
+                    <input type="checkbox" id="lowercaseCb"checked>
+                    <span>a-z</span>
+                </label>
+                
+            </div>
+            <div class="option">
+                <label>
+                    <input type="checkbox" id="uppercaseCb">
+                    <span>A-Z</span>
+                </label>
+            </div>
+            <div class="option">
+                <label>
+                    <input type="checkbox" id="digitsCb">
+                    <span>0-9</span>
+                </label>
+            </div>
+            <div class="option">
+                <label>
+                    <input type="checkbox" id="specialCb">
+                    <span>!@$#%^</span>
+                </label>
+            </div>
+          </div>      
+          <button class="generate">generate</button>   
+        </div>
+        <script src="p13.js"></script>
+    </body>
+</html>

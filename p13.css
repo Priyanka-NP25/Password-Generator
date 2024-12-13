@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.generator{
+    background-color: antiquewhite;
+    width: 250px;
+    margin: 20px auto;
+    padding: 50px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    padding: 30px;
+    color: brown;
+}
+div.password{
+    display: grid;
+    grid-template-columns: auto min-content;
+   overflow: hidden;
+   border-radius: 5px;
+
+}
+.password input{
+    padding: 7px 10px;
+    border: 0;
+}
+button{
+    padding: 7px 10px;
+    border: 0;
+    text-transform: uppercase;
+}
+.range{
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: auto min-content;
+    
+}
+.range span{
+    background-color: blue;
+    padding: 5px;
+    border-radius: 50px;
+    color: white;
+    margin-left: 10px;
+    min-width: 30px;
+    text-align: center;
+}
+.options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    gap: 30px;
+}
+.option label{
+    display: block;
+    background-color: blueviolet;
+    padding: 8px;
+    border-radius: 8px;
+}
+.generate{
+    width: 90%;
+    background-color: gray;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+    margin-left: 20px;
+}
+
